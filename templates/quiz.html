@@ -32,7 +32,7 @@
 
 
     <div id="quiz">
-        <h4 class="row-fluid" style="text-align: center;"><span class="alert alert-danger col-md-12" ng-show="mode == 'feedback' && timedout">Oops!! Timed Out.</span></h4>
+        <h4 class="row-fluid" style="text-align: center;"><span class="alert alert-danger col-md-12" ng-show="mode == 'feedback' && timedout">Oops!! Timed Out. Your answers were auto-submitted</span></h4>
         <div class="row">
             <div class="col-md-12">
                 <h1 ng-show="mode=='quiz' || mode=='review'" class="center">{{quiz.name}}</h1>
@@ -100,7 +100,7 @@
         </div>
 
         <div class="result" ng-show="mode=='result'">
-            <h2 ng-show="totalCorrectAnswers == defaultConfig.totalQuestions" style="text-align: center; color: green">Wow! That was awesome. You hit it all. <br><br> Please grab your goodie from the stall <br> Have a Great day!!</h2>
+            <h2 ng-show="totalCorrectAnswers == defaultConfig.totalQuestions" style="text-align: center; color: green">Wow! That was awesome. You hit it all. <br><br> Please grab your special goodie from the stall <br> Have a Great day!!</h2>
             <h2 ng-show="totalCorrectAnswers < defaultConfig.totalQuestions" style="text-align: center; color: orange"><i>Alas, You missed <b>{{defaultConfig.totalQuestions - totalCorrectAnswers}}</b> hits. <br><br>Anyways, Thanks for taking time to participate. We appreciate it. <br> Have a Great day!!</i></h2>
             <!--<h2>Quiz Result</h2>-->
             <!--<div ng-repeat="question in questions">-->

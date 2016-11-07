@@ -112,7 +112,7 @@
     },
         {
             "Id": 1019,
-            "Name": "It is possible to run a test in PTaaS without Jmeter script?",
+            "Name": "It is possible to run a test in PTaaS without Jmeter script",
             "QuestionTypeId": 1,
             "Options": [
                 { "Id": 1055, "QuestionId": 1010, "Name": "True", "IsAnswer": false },
