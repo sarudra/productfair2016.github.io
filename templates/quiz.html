@@ -38,7 +38,7 @@
                 <h1 ng-show="mode=='quiz' || mode=='review'" class="center">{{quiz.name}}</h1>
                 <h1 ng-show="mode=='feedback'" class="center">Almost there!!</h1>
                 <h1 ng-show="mode=='result'" class="center">Test Result : {{totalCorrectAnswers}} / {{defaultConfig.totalQuestions}}</h1>
-                <div ng-show="mode!='result'" style="text-align: center"><div  class="btn btn-default btn-sm"><i>Do Not refresh the page</i></div></div>
+                <div ng-show="mode!='result'" style="text-align: center"><div  class="btn btn-default btn-sm" disabled><i>Do Not refresh the page</i></div></div>
                 <hr />
             </div>
         </div>

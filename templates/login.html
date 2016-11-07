@@ -16,7 +16,7 @@
         </div>
         <div class="modal-body">
             <div ng-show="isInvalidUser" style="padding-bottom: 7%">
-                <div class="btn alert-danger col-md-12 col-sm-12 col-lg-12">Sorry! Reattempt is not allowed.</div>
+                <div class="btn alert-danger col-md-12 col-sm-12 col-lg-12" disabled>Sorry! Reattempt is not allowed.</div>
             </div>
             <form name="myForm" ng-submit="startTest()" novalidate>
                 <!--<div class="form-group" ng-class="{ 'has-error' : myForm.user.$invalid && !myForm.user.$pristine }">-->
