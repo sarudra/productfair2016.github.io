@@ -101,7 +101,7 @@
     },
     {
         "Id": 1019,
-        "Name": "What is the important metrics of performance?",
+        "Name": "Find the key performance metrics",
         "QuestionTypeId": 1,
         "Options": [
             { "Id": 1055, "QuestionId": 1010, "Name": "Response Time", "IsAnswer": false },
@@ -132,7 +132,7 @@
         },
         {
             "Id": 1019,
-            "Name": "It is possible to monitor more than one application / stage in PTaaS?",
+            "Name": "It is possible to monitor more than one application / stage in PTaaS",
             "QuestionTypeId": 1,
             "Options": [
                 { "Id": 1055, "QuestionId": 1010, "Name": "True", "IsAnswer": true },
@@ -203,7 +203,7 @@
         },
         {
             "Id": 1019,
-            "Name": "Which is a unified monitoring platform providing capabilities to monitor and manage availability of Applications, Systems, and Infrastructure in real-time so customers act quickly to resolve site issues, thus providing a better experience to PayPal customers, and better business performance",
+            "Name": "Which is a unified monitoring platform providing capabilities to monitor and manage availability of Applications, Systems, and Infrastructure in real-time so developers act quickly to resolve site issues, thus providing a better experience to PayPal customers, and better business performance",
             "QuestionTypeId": 1,
             "Options": [
                 { "Id": 1055, "QuestionId": 1010, "Name": "CAL", "IsAnswer": false },
