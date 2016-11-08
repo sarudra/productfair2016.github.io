@@ -211,17 +211,6 @@
                 { "Id": 1057, "QuestionId": 1010, "Name": "JMeter", "IsAnswer": false },
                 { "Id": 1058, "QuestionId": 1010, "Name": "PTaaS", "IsAnswer": false }],
             "QuestionType": { "Id": 1, "Name": "Multiple Choice", "IsActive": true }
-        },
-        {
-            "Id": 1019,
-            "Name": "Which DL you would reach out to for any performance related issues in your application?",
-            "QuestionTypeId": 1,
-            "Options": [
-                { "Id": 1055, "QuestionId": 1010, "Name": "DL-PP-LnP-Request", "IsAnswer": true },
-                { "Id": 1056, "QuestionId": 1010, "Name": "DL-PP-Load&Performance", "IsAnswer": false },
-                { "Id": 1057, "QuestionId": 1010, "Name": "DL-PP-LnP-Support", "IsAnswer": false },
-                { "Id": 1058, "QuestionId": 1010, "Name": "DL-PP-PerformanceEngineering", "IsAnswer": false }],
-            "QuestionType": { "Id": 1, "Name": "Multiple Choice", "IsActive": true }
         }
     ]
 }
