@@ -314,3 +314,15 @@ body {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
 }
+
+.orange {
+    background: orange !important;
+    color: white !important;
+    border: 1px solid orange !important;
+}
+
+.green {
+    background: green !important;
+    color: white !important;
+    border: 1px solid green !important;
+}
