@@ -4,7 +4,7 @@
     <list default="true" id="de963ec1-19c5-4ae1-a941-4bf9e9d2c6d4" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/login.html" afterPath="$PROJECT_DIR$/templates/login.html" />
     </list>
-    <ignored path="productfair2016.github.io.iws" />
+    <ignored path="productfair2017.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
